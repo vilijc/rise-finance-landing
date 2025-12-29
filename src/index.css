@@ -1,4 +1,15 @@
 body {
 	font-family: 'Poppins', sans-serif;
+	background: #131131;
 }
+
+@media (min-width: 768px) {
+	html, body, #root {
+		height: 100vh;
+		min-height: 100vh;
+		max-height: 100vh;
+		overflow: hidden;
+	}
+}
+
 @import "tailwindcss";
